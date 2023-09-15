@@ -1,0 +1,276 @@
+* {
+  padding:0px;
+  margin:0px;
+}
+*:focus {
+  outline:none;
+}
+::-webkit-scrollbar {
+  width:0px;
+}
+::-webkit-scrollbar-track {
+  border-radius:10px;
+  background-color:none;
+}
+::placeholder {
+  color:white;
+  opacity:0.5;
+}
+a {
+  text-decoration:none;
+  color:white;
+}
+input::selection {
+  background-color: transparent;
+}
+body {
+  background:black;
+  user-select:none;
+}
+#toolbar-container {
+  justify-content:center;
+  display:flex;
+  margin:30px auto;
+}
+#toolbar {
+  background:rgb(96, 42, 245);
+  width:95%;
+  height:60px;
+  border-radius:10px;
+  justify-content:center;
+  display:flex;
+}
+#toolbar-text {
+  font-family:Aviny;
+  font-size:26px;
+  color:white;
+  display:inline-block;
+  margin:8px 15px;
+  transition:0.2s;
+  cursor:pointer;
+}
+#toolbar-text:hover {
+  transform:scale(1.2);
+  padding-left:4px;
+  padding-right:4px;
+}
+#news-structure {
+  width:95%;
+  height:500px;
+  border-radius:10px;
+  background:rgb(96, 42, 245);
+  display:flex;
+  justify-content:center;
+  margin:0px auto;
+}
+#benefits-container {
+  justify-content:center;
+  display:flex;
+  margin:50px auto;
+}
+#benefit-structure {
+  background-image: linear-gradient(to right, rgb(96, 42, 245) , rgb(109, 18, 255));
+  width:280px;
+  height:420px;
+  border-radius:10px;
+  margin:20px 30px;
+}
+#benefits-image {
+  width:200px;
+  height:180px;
+  margin:40px auto;
+  border-radius:10px 10px 0 0;
+  justify-content:center;
+  display:flex;
+  opacity:0.8;
+}
+#benefits-title {
+  width:200px;
+  height:40px;
+  background:rgb(112, 88, 245);
+  opacity:0.8;
+  margin:-30px auto;
+  display:flex;
+  justify-content:center;
+}
+#benefits-description {
+  width:200px;
+  height:100px;
+  background:rgb(112, 88, 245);
+  border-radius:0 0 10px 10px;
+  opacity:0.8;
+  margin:40px auto;
+  display:flex;
+  justify-content:center;
+}
+#blog-container {
+  justify-content:center;
+  display:flex;
+  margin:50px auto;
+}
+#blog-structure {
+  background-image: linear-gradient(to right, rgb(96, 42, 245) , rgb(109, 18, 255));
+  width:400px;
+  height:380px;
+  border-radius:10px;
+  margin:20px 30px;
+}
+#blog-image {
+  width:300px;
+  height:220px;
+  margin:55px auto;
+  border-radius:10px 10px 0 0;
+  justify-content:center;
+  display:flex;
+  opacity:0.8;
+}
+#like-section {
+  width:400px;
+  height:100px;
+  margin-top:-50px;
+  border-radius:10px;
+}
+#like-button {
+  width:97px;
+  height:45px;
+  background:rgb(112, 88, 245);
+  border-radius:0px;
+  border:none;
+  color:white;
+  font-family:Aviny;
+  font-size:28px;
+  display:inline-block;
+  margin:-20px 2px;
+  transition:0.5s;
+  cursor:pointer;
+  opacity:0.8;
+}
+#like-button:hover {
+  background:rgb(96, 72, 245);
+  color:white;
+}
+#view-button {
+  width:97px;
+  height:45px;
+  background:rgb(112, 88, 245);
+  border-radius:0 0 0 10px;
+  border:none;
+  color:white;
+  font-family:Aviny;
+  font-size:28px;
+  display:inline-block;
+  margin:0px 2px;
+  margin-left:50px;
+  transition:0.5s;
+  cursor:pointer;
+  opacity:0.8;
+}
+#view-button:hover {
+  background:rgb(96, 72, 245);
+  color:white;
+}
+#like-data {
+  width:97px;
+  height:45px;
+  background:rgb(112, 88, 245);
+  border-radius:0 0 10px 0;
+  color:white;
+  font-family:Aviny;
+  font-size:28px;
+  text-align:center;
+  display:inline-block;
+  margin:0px 2px;
+  transition:0.5s;
+  cursor:pointer;
+  opacity:0.8;
+}
+#like-data:hover {
+  background:rgb(96, 72, 245);
+  color:white;
+}
+#products-container {
+  justify-content:center;
+  display:flex;
+  margin:50px auto;
+}
+#products-structure {
+  background-image: linear-gradient(to right, rgb(96, 42, 245) , rgb(109, 18, 255));
+  width:400px;
+  height:380px;
+  border-radius:10px;
+  margin:20px 30px;
+}
+#about-structure {
+  background-image: linear-gradient(to right, rgb(96, 42, 245) , rgb(109, 18, 255));
+  width:95%;
+  height:450px;
+  border-radius:10px;
+  margin:20px 30px;
+}
+#about-description {
+  background:rgb(112, 88, 245);
+  border-radius:10px;
+  width:93%;
+  height:360px;
+  margin-left:45px;
+  margin-top:45px;
+  position:absolute;
+  opacity:0.8;
+}
+#footer-structure {
+  background:rgb(96, 42, 245);
+  width:100%;
+  height:450px;
+  margin-top:200px;
+}
+#introducing-text {
+  font-family:Aviny;
+  font-size:50px;
+  color:white;
+  text-align:center;
+}
+#interval {
+  margin-top:250px;
+}
+@font-face {
+  font-family:Aviny;
+  src:url('./static/font/Aviny.ttf');
+}
+@media only screen and (max-width: 600px) {
+  #toolbar {
+    width:320px;
+  }
+  #news-structure {
+    width:320px;
+    height:450px;
+  }
+  #toolbar-text {
+    font-size:18px;
+    margin-top:15px;
+    margin-left:5px;
+  }
+  #benefits-container {
+    display:block;
+  }
+  #benefit-structure {
+    margin:50px 65px;
+  }
+  #blog-container {
+    display:block;
+  }
+  #blog-structure {
+    width:310px;
+    margin:50px 50px;
+  }
+  #about-structure {
+    width:310px;
+    margin-left:50px;
+  }
+  #products-container {
+    display:block;
+  }
+  #products-structure {
+    width:310px;
+    margin:50px 50px;
+  }
+}
