@@ -78,7 +78,7 @@ function App() {
         </div>
         <div id="products-structure">
           <p id="products-title"></p>
-          <p id="products-description"></p>
+          <p id="blogs-description"></p>
           <img id="blog-image" src={require('./static/img/Blog.png')} />
           <LikeButton />
         </div>
